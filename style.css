@@ -1,3 +1,5 @@
+
+
 html {
   height: 100%;
   width: 100%;
@@ -7,23 +9,50 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
+  background-color: black;a
 }
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  background: black;
   padding: 5px;
   border-radius: 10px;
+  color:#800885
 }
 
 .main-container h1 {
   text-align: center;
 }
 
+span {
+  color:#2AABE2
+}
+
+.messsages-container {
+  display: flex;
+  justify-content: center;
+}
+
+ .para {
+   text-align: left;
+   margin-left: 0;
+ }
+
+
 .text-box {
   margin: 0px auto;
-  width: 40%;
+  width: 100%;
+  text-align: center;
+
 }
 
 p{
